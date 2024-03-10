@@ -1,5 +1,7 @@
 # MyComicDatabase
 
+The application's database design consists of well-structured tables to efficiently manage manga-related data. It includes tables for manga details, publishers, authors, admins, users, sellers, reviews, and reading lists. These tables are interconnected to establish relationships between manga, users, and other entities. The design ensures data integrity and facilitates smooth data retrieval and storage.
+
 ## Overview
 mysql -u root -p mangaproj < MangaAppDump_Final.sql
 
